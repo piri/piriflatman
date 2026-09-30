@@ -1,0 +1,51 @@
+
+Check Alpaca Protocol - Conform Universal 4.5.0 (Build 53834.49ab847) 
+
+Test CoverCalibrator device:  - 127.0.0.1:18080 through URL: http://127.0.0.1:18080 
+
+OK messages are suppressed, they can be enabled through the Alpaca and COM settings page. 
+
+Connecting to device... 
+
+Successfully connected to device, disconnecting in order to test that connection using a different PUT parameter order is successful... 
+
+Successfully disconnected from device, re-connecting using re-ordered PUT parameters... 
+
+Successfully connected to device using re-ordered PUT parameters, testing device... 
+
+Device exposes interface version 2 
+22:58:20.411 PUT Disconnect                      INFO     Bad ClientTransactionID casing - The ClientTransactionID was round-tripped suggesting that the device did not treat it as case sensitive. Sent value: 67890, Returned value: 67890
+22:58:20.453 PUT Connect                         INFO     Bad ClientTransactionID casing - The ClientTransactionID was round-tripped suggesting that the device did not treat it as case sensitive. Sent value: 67890, Returned value: 67890
+22:58:20.556 PUT CalibratorOff                   INFO     Bad ClientTransactionID casing - The ClientTransactionID was round-tripped suggesting that the device did not treat it as case sensitive. Sent value: 67890, Returned value: 67890
+22:58:20.588 PUT CalibratorOn                    ISSUE    Parameter Brightness (Bad casing) - Expected HTTP status: 400 (BadRequest) but received status: 200 (OK).
+
+22:58:20.592 PUT CalibratorOn                    INFO     Bad ClientTransactionID casing - The ClientTransactionID was round-tripped suggesting that the device did not treat it as case sensitive. Sent value: 67890, Returned value: 67890
+22:58:20.622 PUT OpenCover                       INFO     Bad ClientTransactionID casing - The ClientTransactionID was round-tripped suggesting that the device did not treat it as case sensitive. Sent value: 67890, Returned value: 67890
+22:58:20.643 PUT HaltCover                       INFO     Bad ClientTransactionID casing - The ClientTransactionID was round-tripped suggesting that the device did not treat it as case sensitive. Sent value: 67890, Returned value: 67890
+22:58:20.664 PUT CloseCover                      INFO     Bad ClientTransactionID casing - The ClientTransactionID was round-tripped suggesting that the device did not treat it as case sensitive. Sent value: 67890, Returned value: 67890
+
+Successfully disconnected from device. 
+
+Found 0 errors, 1 issue and 7 information messages. 
+
+Issue Summary 
+PUT CalibratorOn ==> Parameter Brightness (Bad casing) - Expected HTTP status: 400 (BadRequest) but received status: 200 (OK).
+  Response: {"ClientTransactionID":67890,"ServerTransactionID":301,"ErrorNumber":0,"ErrorMessage":""}
+ 
+
+Information Message Summary 
+PUT Disconnect ==> Bad ClientTransactionID casing - The ClientTransactionID was round-tripped suggesting that the device did not treat it as case sensitive. Sent value: 67890, Returned value: 67890 
+ 
+PUT Connect ==> Bad ClientTransactionID casing - The ClientTransactionID was round-tripped suggesting that the device did not treat it as case sensitive. Sent value: 67890, Returned value: 67890 
+ 
+PUT CalibratorOff ==> Bad ClientTransactionID casing - The ClientTransactionID was round-tripped suggesting that the device did not treat it as case sensitive. Sent value: 67890, Returned value: 67890 
+ 
+PUT CalibratorOn ==> Bad ClientTransactionID casing - The ClientTransactionID was round-tripped suggesting that the device did not treat it as case sensitive. Sent value: 67890, Returned value: 67890 
+ 
+PUT OpenCover ==> Bad ClientTransactionID casing - The ClientTransactionID was round-tripped suggesting that the device did not treat it as case sensitive. Sent value: 67890, Returned value: 67890 
+ 
+PUT HaltCover ==> Bad ClientTransactionID casing - The ClientTransactionID was round-tripped suggesting that the device did not treat it as case sensitive. Sent value: 67890, Returned value: 67890 
+ 
+PUT CloseCover ==> Bad ClientTransactionID casing - The ClientTransactionID was round-tripped suggesting that the device did not treat it as case sensitive. Sent value: 67890, Returned value: 67890 
+ 
+

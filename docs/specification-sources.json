@@ -1,0 +1,22 @@
+[
+  {
+    "url": "https://ascom-standards.org/newdocs/covercalibrator.html",
+    "retrieved": "2026-09-29",
+    "sha256": "fe7f153193fe393c8fd21120ae16ee63cc1a4c96a3607900ff7873138a30b78f"
+  },
+  {
+    "url": "https://ascom-standards.org/AlpacaDeveloper/ASCOMAlpacaAPIReference.html",
+    "retrieved": "2026-09-29",
+    "sha256": "e7f1598773965a8b6d00413c42bd005117e775a3d9262dfc005002701413395e"
+  },
+  {
+    "url": "https://ascom-standards.org/api/AlpacaDeviceAPI_v1.yaml",
+    "retrieved": "2026-09-29",
+    "sha256": "d08d4bfe1a01da637a9084d6a26043d669f665ecee438f6923d078539e4b8276"
+  },
+  {
+    "url": "https://ascom-standards.org/api/AlpacaManagementAPI_v1.yaml",
+    "retrieved": "2026-09-29",
+    "sha256": "bafa24883572ad0b31efb31aa2e39aa81a945e0f4e449baab376f6c85d18aa84"
+  }
+]

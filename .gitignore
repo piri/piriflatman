@@ -1,0 +1,7 @@
+.pio/
+.venv/
+config.local.h
+__pycache__/
+*.pyc
+.vscode/
+artifacts/
